@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+         <input type="text" name="" id="thq">
+        <input type="submit" name="" id="" onclick="xemgia()" value="Xem giá">
+        <p id="message"></p>
+    <script>
+
+        function xemgia() {
+             var tenhoaqua = String(document.getElementById("thq").value);
+                 console.log(tenhoaqua)
+
+        switch (tenhoaqua) {
+            case "Ổi": document.getElementById("message").innerHTML = '20000vnd/kg';
+                break;
+            case "Dưa hấu": document.getElementById("message").innerHTML = '20000vnd/kg';
+                break;
+            case "Táo": document.getElementById("message").innerHTML = '30000vnd/kg';
+                break;
+            case "Xoài": document.getElementById("message").innerHTML = '30000vnd/kg';
+                break;
+            case "Cam": document.getElementById("message").innerHTML = '40000vnd/kg';
+                break;
+            case "Chôm Chôm": document.getElementById("message").innerHTML = '40000vnd/kg';
+                break;
+            case "Măng cụt": document.getElementById("message").innerHTML = '50000vnd/kg';
+                break;
+        }}
+
+    </script>
+</body>
+</html>
